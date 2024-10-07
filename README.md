@@ -41,10 +41,13 @@ une variable dans la Player List qui associe chaque joueur à un Acteur. Comme i
 des childs de BP_Pion, il ne reste plus qu'à les mettre dans une liste après qu'on les ait fait
 spawn. J'ai juste réutilisé la variable Pion et j'en ai fait un array.
 
-J'ai toujours pas fini le widget de fin, je le ferai au prochain push maintenant que j'ai fini les
+J'ai toujours pas fini le Widget de fin, je le ferai au prochain push maintenant que j'ai fini les
 tâches de base.
 
+---------------------------TROISIÈME PUSH---------------------------------------------------
 
+Abandon du bouton recommencer sur le Widget de fin mais il est maintenant fini et dispose
+uniquement du bouton quitter. Il y a maintenant 4 joueurs.
 
 
 

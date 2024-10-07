@@ -1,5 +1,7 @@
 # LucasCHARPENTIER_Plateau
 
+Lien du OPC : https://docs.google.com/document/d/1E3LEzGkC3f80BfDO9emmpftl2IjCLsiqhEJVVkkgqsE/edit#heading=h.ygqgup1yr5cm
+
 ---------------------------PREMIER PUSH----------------------------------------------------
 
 Je viens de finir la condition de fin de mon jeu. J'avais oublié de le marquer dans mon OPC

@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "MemoryCard.h"
+#include "MemoryChest.h"
 
 // Sets default values
-AMemoryCard::AMemoryCard()
+AMemoryChest::AMemoryChest()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,32 +12,33 @@ AMemoryCard::AMemoryCard()
 }
 
 // Called when the game starts or when spawned
-void AMemoryCard::BeginPlay()
+void AMemoryChest::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AMemoryCard::Tick(float DeltaTime)
+void AMemoryChest::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-void AMemoryCard::TurnCard()
+void AMemoryChest::OpenClose()
 {
-
-	bIsClickable = !bIsClickable;
-	FRotator rot;
-	if (GetActorRotation().Euler().X==0)
+	
+	bIsOpenable = !bIsOpenable;
+	FRotator ChestRot;
+	if (RCubeComp->GetRelativeRotation().Euler().X == 0)
 	{
-		rot = FRotator(180.0f, 0.0f, 0.0f);
+		ChestRot = FRotator(90.0f, 0.0f, 0.0f);
 
-	} else 
-	{
-		rot = FRotator(0.0f, 0.0f, 0.0f);
 	}
-	SetActorRotation(rot);
+	else
+	{
+		ChestRot = FRotator(0.0f, 0.0f, 0.0f);
+	}
+	RCubeComp->SetRelativeRotation(ChestRot);
 }
 

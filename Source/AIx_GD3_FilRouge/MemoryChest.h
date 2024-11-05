@@ -4,29 +4,29 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "MemoryCard.generated.h"
+#include "MemoryChest.generated.h"
 
 UCLASS()
-class AIX_GD3_FILROUGE_API AMemoryCard : public AActor
+class AIX_GD3_FILROUGE_API AMemoryChest : public AActor
 {
 	GENERATED_BODY()
-
-public:
+	
+public:	
 	// Sets default values for this actor's properties
-	AMemoryCard();
+	AMemoryChest();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool bIsClickable = true;
+	bool bIsOpenable = true;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UStaticMeshComponent* RCubeComp;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
+public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-	void TurnCard();
-
-
+	void OpenClose();
 };

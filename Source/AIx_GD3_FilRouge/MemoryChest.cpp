@@ -30,14 +30,18 @@ void AMemoryChest::OpenClose()
 	
 	bIsOpenable = !bIsOpenable;
 	FRotator ChestRot;
-	if (RCubeComp->GetRelativeRotation().Euler().X == 0)
+	float RotationX = RCubeComp->GetRelativeRotation().Euler().Y;
+	if (RCubeComp->GetRelativeRotation().Euler().Y < 1)
 	{
 		ChestRot = FRotator(90.0f, 0.0f, 0.0f);
-
+		UE_LOG(LogTemp, Warning, TEXT("ouvre"));
+		UE_LOG(LogTemp, Warning, TEXT("Rotation X is: %f"), RotationX);
 	}
 	else
 	{
 		ChestRot = FRotator(0.0f, 0.0f, 0.0f);
+		UE_LOG(LogTemp, Warning, TEXT("ouvre"));
+		UE_LOG(LogTemp, Warning, TEXT("Rotation X is: %f"), RotationX);
 	}
 	RCubeComp->SetRelativeRotation(ChestRot);
 }

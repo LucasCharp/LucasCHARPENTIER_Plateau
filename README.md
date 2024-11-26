@@ -16,4 +16,10 @@ de coffres et de sable pour la map memory.
 Ajout de la case qui amène au mini-jeu, des numéros de cases et du widget aui explique au début de la
 partie. J'ai esssayé d'ajouter la possibilité de jouer à 4 mais j'ai pas fini.
 
+---------------------------TROISIEME PUSH----------------------------------------------------
+
+26/11
+
+Ajout du mode 4 joueurs sélectionnable au début de la partie.
+
 

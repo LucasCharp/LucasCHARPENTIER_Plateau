@@ -34,13 +34,13 @@ void AMemoryChest::OpenClose()
 	if (RCubeComp->GetRelativeRotation().Euler().Y < 1)
 	{
 		ChestRot = FRotator(90.0f, 0.0f, 0.0f);
-		UE_LOG(LogTemp, Warning, TEXT("ouvre"));
+		UE_LOG(LogTemp, Warning, TEXT("Ouvre"));
 		UE_LOG(LogTemp, Warning, TEXT("Rotation X is: %f"), RotationX);
 	}
 	else
 	{
 		ChestRot = FRotator(0.0f, 0.0f, 0.0f);
-		UE_LOG(LogTemp, Warning, TEXT("ouvre"));
+		UE_LOG(LogTemp, Warning, TEXT("Ferme"));
 		UE_LOG(LogTemp, Warning, TEXT("Rotation X is: %f"), RotationX);
 	}
 	RCubeComp->SetRelativeRotation(ChestRot);

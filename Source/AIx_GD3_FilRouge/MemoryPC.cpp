@@ -7,5 +7,5 @@ void AMemoryPC::BeginPlay()
 {
 	Super::BeginPlay();
 	bShowMouseCursor = true;
-	bEnableClickEvents = true;
+	
 }

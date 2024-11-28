@@ -57,10 +57,19 @@ points qu'ils ont en global et au memory, le nombre d'essai restant pour le memo
 inversé la couleur des cases -5 et recule car je préfère que le -5 soit celui qui enlève 5 points 
 (comme dans Mario Party).
 
+---------------------------SEPTIEME PUSH----------------------------------------------------
 
+28/11
 
-
-
+Case de fin terminée. Elle donne 20 points à celui qui tombe dessus et affiche le widget de fin.
+Sur celui-ci, il y a écrit le gagnant ainsi que son nombre de points. Pour faire ça, j'ai
+créé une fonction dans le game instance qui check tous les scores un par un et qui conserve le
+plus gros ainsi que le player id du joueur qui le possède. Ensuite je lance cette fonction 
+depuis le WB_Victoire afin de pouvoir modifié le texte directement. J'ai aussi modifié le cpp
+du memory. Avant on activer EnableClickEvent dedans mais je l'ai déplacé car je ne veux plus qu'il 
+s'active dans le BeginPlay. Vu qu'il y a un widget qui s'affiche au début et que l'on voit les
+coffres sur le côté, on pouvait commencer à jouer même si le widget était toujours là. Maintenant,
+il faut cliquer sur le bouton commencer pour activer les click event.
 
 
 

@@ -72,7 +72,11 @@ coffres sur le côté, on pouvait commencer à jouer même si le widget était t
 il faut cliquer sur le bouton commencer pour activer les click event.
 
 
+---------------------------SEPTIEME PUSH----------------------------------------------------
 
+28/11 et 29/11
+
+Ajout d'animations de widget qui annonce le tour des joueurs et le lancer de dé.
 
 
 

@@ -46,3 +46,36 @@ car je ne pouvais pas mettre de délai entre le moment où le dé apparait et ce
 fait avancer les joueurs. J'ai donc créé un custom event RollADiceAndMove qui lance la fonction
 RollDice puis 3 secondes plus tard lance la fonction removeDiceWidget et la fonction MoveChara, qui 
 est juste l'ancienne fonction RollADiceAndMove dans laquelle j'ai enlevé le node RollDice au début.
+
+---------------------------SIXIEME PUSH----------------------------------------------------
+
+28/11
+
+J'ai principalement ajouté des widgets qui donne des informations aux joueurs, comme le nombre de
+points qu'ils ont en global et au memory, le nombre d'essai restant pour le memory, l'écran de fin
+(il est pas encore fini). J'ai aussi réglé le fait que les pions se genent quand ils marchent. J'ai
+inversé la couleur des cases -5 et recule car je préfère que le -5 soit celui qui enlève 5 points 
+(comme dans Mario Party).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

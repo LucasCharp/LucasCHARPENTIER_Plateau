@@ -78,7 +78,12 @@ il faut cliquer sur le bouton commencer pour activer les click event.
 
 Ajout d'animations de widget qui annonce le tour des joueurs et le lancer de dé.
 
+---------------------------HUITIEME PUSH----------------------------------------------------
 
+29/11
+
+Mis en place du mini-jeu de collecte. C'est juste le set up du mini-jeu (controle, caméra, spawn)
+il y a pas encore de code en C++.
 
 
 

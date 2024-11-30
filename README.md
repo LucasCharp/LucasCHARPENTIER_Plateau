@@ -72,19 +72,25 @@ coffres sur le côté, on pouvait commencer à jouer même si le widget était t
 il faut cliquer sur le bouton commencer pour activer les click event.
 
 
----------------------------SEPTIEME PUSH----------------------------------------------------
+---------------------------HUITIEME PUSH----------------------------------------------------
 
 28/11 et 29/11
 
 Ajout d'animations de widget qui annonce le tour des joueurs et le lancer de dé.
 
----------------------------HUITIEME PUSH----------------------------------------------------
+---------------------------NEUVIEME PUSH----------------------------------------------------
 
 29/11
 
 Mis en place du mini-jeu de collecte. C'est juste le set up du mini-jeu (controle, caméra, spawn)
 il y a pas encore de code en C++.
 
+---------------------------DIXIEME PUSH----------------------------------------------------
+
+30/11
+
+Ajout du mouvement des personnages non-humain en C++. Ils se déplacent aléatoirement dans la 
+zone du navMesh.
 
 
 

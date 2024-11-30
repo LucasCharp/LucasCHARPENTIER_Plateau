@@ -3,3 +3,10 @@
 
 #include "GamemodeChase.h"
 
+int AGamemodeChase::SetScoreByPlayerId(int playerId)
+{
+	APlayerCollect* PlayerThatCollect;
+	PlayerThatCollect = PlayerCollectList[playerId];
+	PlayerThatCollect->chaseScore += 1;
+	return PlayerThatCollect->chaseScore;
+}

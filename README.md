@@ -92,6 +92,14 @@ il y a pas encore de code en C++.
 Ajout du mouvement des personnages non-humain en C++. Ils se déplacent aléatoirement dans la 
 zone du navMesh.
 
+---------------------------ONZIEME PUSH----------------------------------------------------
+
+30/11
+
+Les personnages peuvent collecter des objets ce qui augmente leur score. Pour l'instant le score
+s'affiche en print string. La fonction SetPlayerScoreByPlayerId existe en Blueprint et en C++
+(pas exactement le même nom) car j'ai d'abord fait le BP pour être sûr de ce que je fais en C++.
+
 
 
 

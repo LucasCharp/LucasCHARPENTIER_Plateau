@@ -14,6 +14,10 @@ class AIX_GD3_FILROUGE_API APlayerCollect : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayerCollect();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int chaseScore = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int playerID = 0;
 
 protected:
 	// Called when the game starts or when spawned

@@ -24,7 +24,7 @@ void APlayerCollect::BeginPlay()
         MovementTimerHandle,
         this,
         &APlayerCollect::MoveToRandomLocation,
-        0.1f, // Intervalle en secondes
+        0.5f, // Intervalle en secondes
         true  // Répétitif
     );
 	

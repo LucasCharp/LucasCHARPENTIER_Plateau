@@ -114,6 +114,12 @@ fait la condition de fin mais en théorie j'ai juste à mettre if Timer = 0 affi
 de mini jeu. Le timer est codé dans le gamemode. J'ai peut-être réussi à régler le problème de 
 la partie que je décris dans la partie précédente mais je laisse le message au cas où. 
 
+---------------------------TREIZIEME PUSH----------------------------------------------------
+
+30/11 et 01/12
+
+J'affiche le timer sur un Widget (le même que le score).
+
 
 
 

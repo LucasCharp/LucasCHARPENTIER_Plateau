@@ -9,7 +9,7 @@
 // Sets default values
 APlayerCollect::APlayerCollect()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -20,13 +20,7 @@ void APlayerCollect::BeginPlay()
 	Super::BeginPlay();
 
     // Configurer un timer pour appeler MoveToRandomLocation toutes les X secondes
-    GetWorld()->GetTimerManager().SetTimer(
-        MovementTimerHandle,
-        this,
-        &APlayerCollect::MoveToRandomLocation,
-        0.5f, // Intervalle en secondes
-        true  // Répétitif
-    );
+    GetWorld()->GetTimerManager().SetTimer(MovementTimerHandle, this, &APlayerCollect::MoveToRandomLocation, 0.5f, true);
 	
 }
 
@@ -50,8 +44,8 @@ void APlayerCollect::MoveToRandomLocation()
 
     // Définir un point de destination aléatoire
     FNavLocation RandomLocation;
-    FVector Origin = GetActorLocation(); // Point de départ
-    float SearchRadius = 1000.0f;        // Rayon de recherche pour le point aléatoire
+    FVector Origin = GetActorLocation(); 
+    float SearchRadius = 1000.0f;        
 
     if (NavSystem->GetRandomPointInNavigableRadius(Origin, SearchRadius, RandomLocation))
     {

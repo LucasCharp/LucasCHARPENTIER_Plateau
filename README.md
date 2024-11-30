@@ -100,8 +100,19 @@ Les personnages peuvent collecter des objets ce qui augmente leur score. Pour l'
 s'affiche en print string. La fonction SetPlayerScoreByPlayerId existe en Blueprint et en C++
 (pas exactement le même nom) car j'ai d'abord fait le BP pour être sûr de ce que je fais en C++.
 
+---------------------------C'EST PAS UN PUSH----------------------------------------------------
 
+A cause du C++ chaque fois que je redémarre Unreal il y a certains trucs que je dois enlever 
+puis remettre donc si il y a des erreurs faut Livecoder puis replacer les nodes victimes d'erreurs.
 
+---------------------------DOUZIEME PUSH----------------------------------------------------
+
+30/11
+
+Ajout du Timer en cpp. Il ne s'affiche car j'ai pas encore fait le widget. Je n'ai pas non plus
+fait la condition de fin mais en théorie j'ai juste à mettre if Timer = 0 afficher widget de fin
+de mini jeu. Le timer est codé dans le gamemode. J'ai peut-être réussi à régler le problème de 
+la partie que je décris dans la partie précédente mais je laisse le message au cas où. 
 
 
 

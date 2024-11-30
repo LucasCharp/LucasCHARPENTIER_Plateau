@@ -16,12 +16,23 @@ class AIX_GD3_FILROUGE_API AGamemodeChase : public AGameModeBase
 {
     GENERATED_BODY()
 
+public:
+    AGamemodeChase();
+
+protected:
+    virtual void BeginPlay() override;
+
 protected:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     TArray<APlayerCollect*> PlayerCollectList; 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    float Time = 20.0f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FTimerHandle TimerHandle;
 
 public:
     UFUNCTION(BlueprintCallable)
     int SetScoreByPlayerId(int playerId);
-
+    UFUNCTION(BlueprintCallable)
+    void UpdateTimer();
 };

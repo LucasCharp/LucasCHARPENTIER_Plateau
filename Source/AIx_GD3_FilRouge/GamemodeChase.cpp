@@ -2,6 +2,19 @@
 
 
 #include "GamemodeChase.h"
+#include "TimerManager.h"
+
+AGamemodeChase::AGamemodeChase()
+{
+	
+}
+
+void AGamemodeChase::BeginPlay()
+{
+	Super::BeginPlay();
+
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &AGamemodeChase::UpdateTimer, 1.0f, true);
+}
 
 int AGamemodeChase::SetScoreByPlayerId(int playerId)
 {
@@ -10,3 +23,11 @@ int AGamemodeChase::SetScoreByPlayerId(int playerId)
 	PlayerThatCollect->chaseScore += 1;
 	return PlayerThatCollect->chaseScore;
 }
+
+void AGamemodeChase::UpdateTimer()
+{
+	Time -= 1.0f;
+}
+
+
+

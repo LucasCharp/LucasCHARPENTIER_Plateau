@@ -153,6 +153,17 @@ Les pions attendent d'être bien sur leurs cases pour faire l'action de la case.
 déplacer le node qui lance la fonction Action après le On success du IA Move To des players.
 J'ai du retoucher 2/3 trucs et maintenant ça marche.
 
+---------------------------DIX-SEPTIEME PUSH----------------------------------------------------
+
+01/12 et 02/12
+
+En plus du panneau au début qui indique les effets des cases, il y a un feedback qui s'affiche
+quand on tombe sur la case.
+
+
+
+
+
 
 
 

@@ -31,10 +31,18 @@ protected:
     FTimerHandle TimerHandle;
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     bool timeHasEnd = false;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    bool realChaseHasStarted = false;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    int winnerId = 0;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    int winnerScore = 0;
 
 public:
     UFUNCTION(BlueprintCallable)
     int SetScoreByPlayerId(int playerId, int scoreToAdd);
     UFUNCTION(BlueprintCallable)
     void UpdateTimer();
+    UFUNCTION(BlueprintCallable)
+    void FindWinnerForChase();
 };

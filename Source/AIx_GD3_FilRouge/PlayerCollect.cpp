@@ -11,7 +11,6 @@ APlayerCollect::APlayerCollect()
 {
  	
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 

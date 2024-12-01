@@ -131,6 +131,20 @@ J'ai pas fait grand chose mais j'ai eu des galères avec VS donc maintenant que 
 fais un push pour avoir une version stable de sécurisée. J'ai quand même commencé à ajouter
 un widget et j'ai créé un deuxième collectable.
 
+---------------------------QUINZIEME PUSH----------------------------------------------------
+
+01/12
+
+Mini-jeu de collecte entièrement fini. Comme prévu le score et le timer sont codés en Cpp, il
+y a également quelques variables du gamemode qui sont dans le header même si elles ont pas de
+rapport avec le score et le timer. Le déplacement aléatoire des persos est aussi codés en cpp.
+Il y a du Level Design dans le mini-jeu. Dans mon OPC je n'avais pas de Lore/thématique du coup
+pour rester en lien avec mes coffres du memory, j'ai décidé de faire que mes mini-jeux seront
+basés autour du voyage dans le temps, chaque se passant à une époque différente (le memory se
+passe à l'age d'or de la piraterie et le jeu de poursuite/collecte se déroule dans le 
+labyrinthe du Minotaure donc Grèce Antique). Je vais juste retravailler le LD du memory est faire 
+un LD pour le plateau principal en lien avec le voyage dans le temps et ça devrait être bon.
+
 
 
 

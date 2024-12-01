@@ -145,8 +145,13 @@ passe à l'age d'or de la piraterie et le jeu de poursuite/collecte se déroule 
 labyrinthe du Minotaure donc Grèce Antique). Je vais juste retravailler le LD du memory est faire 
 un LD pour le plateau principal en lien avec le voyage dans le temps et ça devrait être bon.
 
+---------------------------SEIZIEME PUSH----------------------------------------------------
 
+01/12
 
+Les pions attendent d'être bien sur leurs cases pour faire l'action de la case. Pour ça, j'ai
+déplacer le node qui lance la fonction Action après le On success du IA Move To des players.
+J'ai du retoucher 2/3 trucs et maintenant ça marche.
 
 
 

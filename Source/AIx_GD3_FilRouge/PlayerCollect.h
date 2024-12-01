@@ -19,6 +19,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int playerID = 0;
 
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -28,6 +30,8 @@ protected:
 
 	// Déplacement aléatoire dans le NavMesh
 	void MoveToRandomLocation();
+
+
 
 public:	
 	// Called every frame

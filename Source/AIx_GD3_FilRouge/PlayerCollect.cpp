@@ -14,6 +14,7 @@ APlayerCollect::APlayerCollect()
 
 }
 
+
 // Called when the game starts or when spawned
 void APlayerCollect::BeginPlay()
 {
@@ -57,6 +58,9 @@ void APlayerCollect::MoveToRandomLocation()
         UE_LOG(LogTemp, Warning, TEXT("Failed to find random point in NavMesh!"));
     }
 }
+
+
+
 
 // Called every frame
 void APlayerCollect::Tick(float DeltaTime)

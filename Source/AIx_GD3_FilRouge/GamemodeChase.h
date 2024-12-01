@@ -29,10 +29,12 @@ protected:
     float Time = 20.0f;
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     FTimerHandle TimerHandle;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    bool timeHasEnd = false;
 
 public:
     UFUNCTION(BlueprintCallable)
-    int SetScoreByPlayerId(int playerId);
+    int SetScoreByPlayerId(int playerId, int scoreToAdd);
     UFUNCTION(BlueprintCallable)
     void UpdateTimer();
 };

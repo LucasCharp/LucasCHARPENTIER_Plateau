@@ -114,13 +114,22 @@ fait la condition de fin mais en théorie j'ai juste à mettre if Timer = 0 affi
 de mini jeu. Le timer est codé dans le gamemode. J'ai peut-être réussi à régler le problème de 
 la partie que je décris dans la partie précédente mais je laisse le message au cas où. 
 
+Il y a un script cpp Timer mais je l'utilise pas car ça me sembler finalement plus logique
+de la faire dans le gamemode. Je ne l'ai pas supprimé car j'ai peur que ça crée des problèmes. 
+
 ---------------------------TREIZIEME PUSH----------------------------------------------------
 
 30/11 et 01/12
 
 J'affiche le timer sur un Widget (le même que le score).
 
+---------------------------QUATORZIEME PUSH----------------------------------------------------
 
+01/12
+
+J'ai pas fait grand chose mais j'ai eu des galères avec VS donc maintenant que c'est réglé je
+fais un push pour avoir une version stable de sécurisée. J'ai quand même commencé à ajouter
+un widget et j'ai créé un deuxième collectable.
 
 
 

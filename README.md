@@ -160,6 +160,15 @@ J'ai du retoucher 2/3 trucs et maintenant ça marche.
 En plus du panneau au début qui indique les effets des cases, il y a un feedback qui s'affiche
 quand on tombe sur la case.
 
+---------------------------DIX-HUITIEME PUSH----------------------------------------------------
+
+02/12
+
+Level Design de la map principale fini. J'ai ajouté quelques trucs dans la map Memory aussi. Vu
+que le plateau principal est une sorte de hub et que les joueurs voyagent dans le temps grâce au
+mini-jeu comme expliqué plus haut, la map principale n'a pas d'époque particulière mais contient
+plein d'objets qui font référence à des époques/mini-jeux.
+
 
 
 
